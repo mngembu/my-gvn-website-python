@@ -1,0 +1,171 @@
+<!-- index.html (single-page with 4 sections: landing, about, services, contact) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GVN Financial Solutions — Bookkeeping, Tax & Financial Advisory</title>
+  <meta name="description" content="Trusted bookkeeping, tax & financial advisory for small businesses, individuals and families." />
+  <link rel="icon" type="image/png" href="static/images/gvn-logo.png" />
+  <link rel="stylesheet" href="static/styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#landing">
+        <img src="static/images/gvn-logo.png" alt="GVN logo" />
+        <span>Financial Solutions</span>
+      </a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a class="btn--outline small" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Landing ===== -->
+  <section id="landing" class="hero-bleed">
+    <div class="hero-bleed__overlay"></div>
+    <div class="container hero-bleed__content">
+      <h1>Trusted bookkeeping, tax &amp; financial advisory for small businesses, individuals and families</h1>
+      <p>We help you build a secure financial foundation and future with expert services in bookkeeping, corporate taxes, and free financial education.</p>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Schedule a Consultation</a>
+        <a class="btn btn--ghost" href="#services">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <main class="container page">
+    <header id="about" class="page-header">
+      <h1>About Us</h1>
+      <p class="page-subtitle">Expert financial guidance backed by experience and dedication</p>
+    </header>
+
+    <section class="about-grid">
+      <figure class="about-portrait card">
+        <img src="static/images/mary-ara.png" alt="Mary Ara, MS, CPA — Principal at GVN" />
+      </figure>
+
+      <article class="about-copy card">
+        <p>Led by Mary Ara, MS, CPA, a Chartered Professional Accountant, QuickBooks ProAdvisor Certified, and HLLQP-licensed, GVN Financial Solutions is committed to delivering trusted financial expertise with a personal touch.</p>
+
+        <p>We specialize in helping small businesses and families achieve clarity, compliance, and confidence in their financial journey. Our practice is grounded in integrity, professionalism, and a deep understanding of every client’s unique needs.</p>
+
+        <ul class="highlights">
+          <li><strong>8+ Years in Accounting</strong> — Extensive experience in financial management, reporting, and strategic planning.</li>
+          <li><strong>8+ Years tackling bookkeeping and tax needs of small businesses.</strong></li>
+          <li><strong>4+ Years helping individuals and families</strong> grow tax-advantaged wealth through financial education and awareness.</li>
+        </ul>
+
+        <p>What sets us apart is the combination of professional qualifications, hands-on experience, and modern financial tools that allow us to simplify complexity and empower clients to make confident decisions.</p>
+
+        <p>Whether you are a growing business or a family planning for the future, GVN Financial Solutions is the one-stop shop to guide you every step of the way.</p>
+      </article>
+    </section>
+
+    <section class="card trust-strip">
+      <div class="badges">
+        <img src="static/images/cpa-alberta.png" alt="CPA Alberta" />
+        <img src="static/images/qb-proadvisor.png" alt="QuickBooks Online ProAdvisor" />
+        <img src="static/images/qb-advanced-proadvisor.png" alt="QuickBooks Advanced ProAdvisor" />
+        <img src="static/images/alberta-insurance-council.png" alt="Alberta Insurance Council" />
+      </div>
+    </section>
+    
+<br>
+<br>
+
+    <!-- ===== Services ===== -->
+    <header id="services" class="page-header">
+      <h1>Our Services</h1>
+      <p class="page-subtitle">Comprehensive financial solutions designed to meet your business needs</p>
+    </header>
+
+    <section class="grid two">
+      <article class="service-card card">
+        <div class="service-icon" aria-hidden="true">📘</div>
+        <h3>Bookkeeping &amp; Corporate Taxes</h3>
+        <p>Comprehensive bookkeeping and tax solutions to keep your business compliant and financially optimized.</p>
+      </article>
+
+      <article class="service-card card">
+        <div class="service-icon" aria-hidden="true">📈</div>
+        <h3>Financial Advisory</h3>
+        <p>Strategic financial planning to help you build wealth, protect your family, and secure your future.</p>
+      </article>
+    </section>
+
+<br>
+<br>
+
+    <!-- ===== Contact ===== -->
+    <header id="contact" class="page-header">
+      <h1>Get In Touch</h1>
+      <p class="page-subtitle">Ready to streamline your finances? Contact us for a free consultation</p>
+    </header>
+
+    <section class="contact-grid">
+      <article class="card">
+        <h2 class="sr-only">Send Us a Message</h2>
+        <p class="small muted">Fill out the form and we’ll respond within 24 hours</p>
+
+        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <label>
+            <span class="sr-only">Your Name</span>
+            <input type="text" name="name" placeholder="Your Name" required />
+          </label>
+          <label>
+            <span class="sr-only">Your Email</span>
+            <input type="email" name="_replyto" placeholder="Your Email" required />
+          </label>
+          <label>
+            <span class="sr-only">Phone Number</span>
+            <input type="tel" name="phone" placeholder="Phone Number" />
+          </label>
+          <label class="full">
+            <span class="sr-only">Tell us about your needs…</span>
+            <textarea name="message" placeholder="Tell us about your needs…" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send Message</button>
+          <p class="small muted">Tip: replace <code>your-form-id</code> with your Formspree ID.</p>
+        </form>
+      </article>
+
+      <aside class="card contact-info">
+        <ul class="contact-list">
+          <li>
+            <strong>Email</strong><br />
+            <a href="mailto:info@gvnfinancial.com">info@gvnfinancial.com</a>
+          </li>
+          <li>
+            <strong>Phone</strong><br />
+            <a href="tel:+17802172567">(780) 217-2567</a>
+          </li>
+          <li>
+            <strong>Office</strong><br />
+            Beaumont, Alberta, Canada<br />
+            <span class="muted">Serving clients across Canada</span>
+          </li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>GVN Financial Solutions</strong>
+        <span class="muted">Trusted Bookkeeping, Tax &amp; Financial Advisory</span>
+      </div>
+      <small>© <span id="year"></span> GVN Financial Solutions. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

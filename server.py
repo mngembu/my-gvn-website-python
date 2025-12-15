@@ -7,7 +7,7 @@ app = Flask(__name__, static_folder='static', template_folder='templates')
 def home():
     return render_template('index.html')
 
-@app.route('/logo.png')
+@app.route('/gvn-logo.png')
 def serve_logo():
     return send_from_directory(os.getcwd(), 'gvn-logo.png')
 

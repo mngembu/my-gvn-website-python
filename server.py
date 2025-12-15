@@ -9,7 +9,7 @@ def home():
 
 @app.route('/logo')
 def serve_logo():
-    return send_from_directory('gvn-logo.png')
+    return send_from_directory('.','gvn-logo.png')
 
 @app.route('/robots.txt')
 def robots():
